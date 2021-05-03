@@ -1,0 +1,6 @@
+[LINE:224]-WARNING-Thread-1-2021-04-12 20:26:40,745-log-Not Found: /
+[LINE:157]-WARNING-Thread-1-2021-04-12 20:26:40,755-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-1-2021-04-12 20:26:40,764-log-Not Found: /
+[LINE:157]-WARNING-Thread-1-2021-04-12 20:26:40,773-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-1-2021-04-12 20:26:41,826-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-1-2021-04-12 20:26:41,826-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290

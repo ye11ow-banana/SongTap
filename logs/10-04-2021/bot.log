@@ -1,0 +1,1489 @@
+[LINE:224]-WARNING-Thread-1-2021-04-10 10:00:26,004-log-Not Found: /
+[LINE:157]-WARNING-Thread-1-2021-04-10 10:00:26,004-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-1-2021-04-10 10:00:51,080-log-Not Found: /ru/playlist/like/add_or_delete/
+[LINE:157]-WARNING-Thread-1-2021-04-10 10:00:51,081-basehttp-"GET /ru/playlist/like/add_or_delete/ HTTP/1.1" 404 4247
+[LINE:224]-WARNING-Thread-1-2021-04-10 10:02:12,513-log-Not Found: /ru/playlist/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329
+[LINE:157]-WARNING-Thread-1-2021-04-10 10:02:12,513-basehttp-"GET /ru/playlist/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329 HTTP/1.1" 404 4412
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:02:42,100-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 14, in add_to_db_apple_songs_by_ids
+    songs_info = get_apple_songs_info_by_ids(songs_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 27, in get_apple_songs_info_by_ids
+    responses = pool.map(parser, songs_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\pool.py", line 771, in get
+    raise self._value
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 25, in parser
+    return requests.get(url, headers=headers)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 467, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.music.apple.com', port=443): Max retries exceeded with url: /v1/catalog/us/songs/1556768323 (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x05694EF8>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:02:42,111-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 163803
+[LINE:224]-ERROR-Thread-11-2021-04-10 10:05:10,232-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 14, in add_to_db_apple_songs_by_ids
+    songs_info = get_apple_songs_info_by_ids(songs_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 27, in get_apple_songs_info_by_ids
+    responses = pool.map(parser, songs_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\pool.py", line 364, in map
+    return self._map_async(func, iterable, mapstar, chunksize).get()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\pool.py", line 771, in get
+    raise self._value
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\pool.py", line 125, in worker
+    result = (True, func(*args, **kwds))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\multiprocessing\pool.py", line 48, in mapstar
+    return list(map(*args))
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 25, in parser
+    return requests.get(url, headers=headers)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 467, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='api.music.apple.com', port=443): Max retries exceeded with url: /v1/catalog/us/songs/1556768323 (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnection object at 0x050ADC58>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[LINE:157]-ERROR-Thread-11-2021-04-10 10:05:10,235-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 163940
+[LINE:224]-ERROR-Thread-20-2021-04-10 10:06:45,959-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 101, in get_apple_artists_info_by_names
+    artists = requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-20-2021-04-10 10:06:45,962-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 179630
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:07:28,667-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 17, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 60, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 84, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 103, in get_apple_artists_info_by_names
+    artists = requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:07:28,672-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 179605
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:09:21,582-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 59, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 83, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 102, in get_apple_artists_info_by_names
+    artists = requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:09:21,587-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 179651
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:09:56,246-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 101, in get_apple_artists_info_by_names
+    artists = requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:09:56,251-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 179673
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:10:16,546-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 101, in get_apple_artists_info_by_names
+    artists = requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:10:16,551-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 180459
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:10:32,827-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 101, in get_apple_artists_info_by_names
+    artists = requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:10:32,836-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 180459
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:10:48,004-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 59, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 101, in get_apple_artists_info_by_names
+    artists = requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:10:48,009-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 179678
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:11:30,926-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 101, in get_apple_artists_info_by_names
+    artists = requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:11:30,933-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 179869
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:12:14,778-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 101, in get_apple_artists_info_by_names
+    artists = requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:12:14,784-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 179649
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:13:07,118-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 101, in get_apple_artists_info_by_names
+    artists = requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:13:07,123-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 180397
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:13:26,407-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 101, in get_apple_artists_info_by_names
+    artists = requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:13:26,412-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 179664
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:14:17,917-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 101, in get_apple_artists_info_by_names
+    artists = requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:14:17,924-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 179719
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:17:20,650-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 108, in get_apple_artists_info_by_names
+    if artist['attributes']['name'] in names:
+TypeError: string indices must be integers
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:17:20,654-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 131708
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:17:57,832-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 108, in get_apple_artists_info_by_names
+    if artist['attributes']['name'] in names:
+TypeError: string indices must be integers
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:17:57,836-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 131752
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:19:32,488-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 108, in get_apple_artists_info_by_names
+    if str(artist['attributes']['name']) in names:
+TypeError: string indices must be integers
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:19:32,492-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 131762
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:20:53,592-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 109, in get_apple_artists_info_by_names
+    print(artist['attributes']['name'])
+TypeError: string indices must be integers
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:20:53,595-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 131856
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:21:21,320-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 111, in get_apple_artists_info_by_names
+    if artist['attributes']['name'] in names:
+TypeError: string indices must be integers
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:21:21,325-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 131713
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:21:42,838-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 82, in add_apple_artists_info_to_db_by_names
+    artists_info = get_apple_artists_info_by_names(names, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 111, in get_apple_artists_info_by_names
+    if artist['attributes']['name'] in names:
+TypeError: string indices must be integers
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:21:42,842-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 131714
+[LINE:224]-ERROR-Thread-2-2021-04-10 10:23:33,280-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+IndexError: list index out of range
+[LINE:157]-ERROR-Thread-2-2021-04-10 10:23:33,283-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 116823
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:24:58,074-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+IndexError: list index out of range
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:24:58,085-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 116823
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:25:19,726-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+IndexError: list index out of range
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:25:19,729-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 116823
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:26:38,518-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+IndexError: list index out of range
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:26:38,521-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 117013
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:27:31,483-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+IndexError: list index out of range
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:27:31,486-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 117013
+[LINE:224]-ERROR-Thread-1-2021-04-10 10:30:48,726-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ], apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 15, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info, apple_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 58, in add_apple_songs_info_to_db
+    artist = add_apple_artists_info_to_db_by_names([artist_name, ], apple_id)[0]
+IndexError: list index out of range
+[LINE:157]-ERROR-Thread-1-2021-04-10 10:30:48,728-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 116823
+[LINE:224]-ERROR-Thread-1-2021-04-10 12:06:20,299-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ])
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 13, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 65, in add_apple_songs_info_to_db
+    apple_id=song_info['apple_id'],
+KeyError: 'apple_id'
+[LINE:157]-ERROR-Thread-1-2021-04-10 12:06:20,303-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 116986
+[LINE:224]-ERROR-Thread-1-2021-04-10 12:08:06,342-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ])
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 14, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 66, in add_apple_songs_info_to_db
+    apple_id=song_info['apple_id'],
+KeyError: 'apple_id'
+[LINE:157]-ERROR-Thread-1-2021-04-10 12:08:06,345-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 116977
+[LINE:224]-ERROR-Thread-1-2021-04-10 12:08:50,810-log-Internal Server Error: /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 23, in add_or_delete_like
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 26, in add_or_delete_like
+    add_to_db_apple_songs_by_ids([song_id, ])
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 13, in add_to_db_apple_songs_by_ids
+    add_apple_songs_info_to_db(songs_info)
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 65, in add_apple_songs_info_to_db
+    apple_id=song_info['apple_id'],
+KeyError: 'apple_id'
+[LINE:157]-ERROR-Thread-1-2021-04-10 12:08:50,814-basehttp-"GET /ru/playlist/song/like/add_or_delete/1556768323/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 117075

@@ -1,0 +1,6 @@
+[LINE:224]-WARNING-Thread-1-2021-04-14 16:41:12,551-log-Not Found: /
+[LINE:157]-WARNING-Thread-1-2021-04-14 16:41:12,552-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-1-2021-04-14 16:41:12,650-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-1-2021-04-14 16:41:12,650-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:224]-WARNING-Thread-1-2021-04-14 16:41:16,839-log-Method Not Allowed: /ru/friends/create_friend/
+[LINE:157]-WARNING-Thread-1-2021-04-14 16:41:16,839-basehttp-"GET /ru/friends/create_friend/ HTTP/1.1" 405 10536

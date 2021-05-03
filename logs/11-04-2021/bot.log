@@ -1,0 +1,1008 @@
+[LINE:224]-WARNING-Thread-2-2021-04-11 12:21:53,949-log-Not Found: /
+[LINE:157]-WARNING-Thread-2-2021-04-11 12:21:53,950-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-2-2021-04-11 12:21:54,060-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-2-2021-04-11 12:21:54,061-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:224]-WARNING-Thread-4-2021-04-11 12:22:21,525-log-Method Not Allowed: /ru/playlist/create_ad_ing/
+[LINE:157]-WARNING-Thread-4-2021-04-11 12:22:21,526-basehttp-"GET /ru/playlist/create_ad_ing/ HTTP/1.1" 405 10540
+[LINE:224]-WARNING-Thread-3-2021-04-11 12:24:27,027-log-Method Not Allowed: /ru/playlist/delete_ad_ing/
+[LINE:157]-WARNING-Thread-3-2021-04-11 12:24:27,028-basehttp-"GET /ru/playlist/delete_ad_ing/ HTTP/1.1" 405 10682
+[LINE:224]-WARNING-Thread-2-2021-04-11 12:30:01,929-log-Method Not Allowed: /ru/playlist/delete_ad_ing/
+[LINE:157]-WARNING-Thread-2-2021-04-11 12:30:01,930-basehttp-"GET /ru/playlist/delete_ad_ing/ HTTP/1.1" 405 10540
+[LINE:224]-WARNING-Thread-2-2021-04-11 12:30:25,292-log-Method Not Allowed: /ru/playlist/create_plt/
+[LINE:157]-WARNING-Thread-2-2021-04-11 12:30:25,292-basehttp-"GET /ru/playlist/create_plt/ HTTP/1.1" 405 10528
+[LINE:224]-WARNING-Thread-1-2021-04-11 12:47:03,019-log-Not Found: /recommendations/get_songs/
+[LINE:157]-WARNING-Thread-1-2021-04-11 12:47:03,020-basehttp-"GET /recommendations/get_songs/ HTTP/1.1" 404 2335
+[LINE:224]-WARNING-Thread-1-2021-04-11 12:47:40,059-log-Not Found: /ru/recommendations/get_songs/
+[LINE:157]-WARNING-Thread-1-2021-04-11 12:47:40,059-basehttp-"GET /ru/recommendations/get_songs/ HTTP/1.1" 404 2723
+[LINE:224]-ERROR-Thread-1-2021-04-11 12:47:45,861-log-Internal Server Error: /ru/recomendations/get_songs/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 15, in get_songs
+    random.shuffle(songs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\random.py", line 307, in shuffle
+    x[i], x[j] = x[j], x[i]
+TypeError: 'QuerySet' object does not support item assignment
+[LINE:157]-ERROR-Thread-1-2021-04-11 12:47:45,863-basehttp-"GET /ru/recomendations/get_songs/ HTTP/1.1" 500 96762
+[LINE:224]-ERROR-Thread-1-2021-04-11 12:49:29,874-log-Internal Server Error: /ru/recomendations/get_songs/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 16, in get_songs
+    random.shuffle(songs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\random.py", line 307, in shuffle
+    x[i], x[j] = x[j], x[i]
+TypeError: 'QuerySet' object does not support item assignment
+[LINE:157]-ERROR-Thread-1-2021-04-11 12:49:29,876-basehttp-"GET /ru/recomendations/get_songs/ HTTP/1.1" 500 96911
+[LINE:224]-ERROR-Thread-1-2021-04-11 12:51:00,682-log-Internal Server Error: /ru/recomendations/get_songs/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 19, in get_songs
+    return Response(get_db_songs_info(songs_id), status=status.HTTP_200_OK)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 11, in get_db_songs_info
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+[LINE:157]-ERROR-Thread-1-2021-04-11 12:51:00,688-basehttp-"GET /ru/recomendations/get_songs/ HTTP/1.1" 500 105108
+[LINE:224]-ERROR-Thread-1-2021-04-11 12:51:35,099-log-Internal Server Error: /ru/recomendations/get_songs/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 19, in get_songs
+    return Response(get_db_songs_info(songs_id), status=status.HTTP_200_OK)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 11, in get_db_songs_info
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+[LINE:157]-ERROR-Thread-1-2021-04-11 12:51:35,102-basehttp-"GET /ru/recomendations/get_songs/ HTTP/1.1" 500 105114
+[LINE:224]-ERROR-Thread-1-2021-04-11 12:52:49,672-log-Internal Server Error: /ru/recomendations/get_songs/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 19, in get_songs
+    return Response(get_db_songs_info(songs_id), status=status.HTTP_200_OK)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 11, in get_db_songs_info
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+[LINE:157]-ERROR-Thread-1-2021-04-11 12:52:49,675-basehttp-"GET /ru/recomendations/get_songs/ HTTP/1.1" 500 104966
+[LINE:224]-WARNING-Thread-1-2021-04-11 13:45:32,828-log-Bad Request: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+[LINE:157]-WARNING-Thread-1-2021-04-11 13:45:32,828-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 400 10615
+[LINE:224]-WARNING-Thread-1-2021-04-11 13:46:04,791-log-Bad Request: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+[LINE:157]-WARNING-Thread-1-2021-04-11 13:46:04,791-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 400 10615
+[LINE:224]-WARNING-Thread-1-2021-04-11 13:46:23,083-log-Bad Request: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+[LINE:157]-WARNING-Thread-1-2021-04-11 13:46:23,084-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 400 10615
+[LINE:224]-WARNING-Thread-1-2021-04-11 13:47:50,237-log-Bad Request: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+[LINE:157]-WARNING-Thread-1-2021-04-11 13:47:50,237-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 400 10615
+[LINE:224]-WARNING-Thread-1-2021-04-11 13:48:32,503-log-Bad Request: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+[LINE:157]-WARNING-Thread-1-2021-04-11 13:48:32,504-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 400 10615
+[LINE:224]-WARNING-Thread-1-2021-04-11 13:48:56,620-log-Bad Request: /ru/recomendations/get_recommendations/1/10/0/
+[LINE:157]-WARNING-Thread-1-2021-04-11 13:48:56,620-basehttp-"GET /ru/recomendations/get_recommendations/1/10/0/ HTTP/1.1" 400 10357
+[LINE:224]-ERROR-Thread-2-2021-04-11 13:52:23,159-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/0/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 48, in get_recommendations
+    current_user = AppUser.objects.get(apple_id=apple_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+accounts.models.AppUser.DoesNotExist: AppUser matching query does not exist.
+[LINE:157]-ERROR-Thread-2-2021-04-11 13:52:23,162-basehttp-"GET /ru/recomendations/get_recommendations/1/10/0/ HTTP/1.1" 500 102453
+[LINE:224]-ERROR-Thread-2-2021-04-11 13:52:32,692-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 63, in get_recommendations
+    recommendations = services.get_recommendations(the_similarest_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 266, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 172, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 118, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-2-2021-04-11 13:52:32,697-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 161288
+[LINE:224]-ERROR-Thread-1-2021-04-11 13:53:45,558-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 62, in get_recommendations
+    recommendations = services.get_recommendations(the_similarest_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 266, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 172, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 118, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-11 13:53:45,563-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 161450
+[LINE:224]-ERROR-Thread-1-2021-04-11 13:59:29,542-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 62, in get_recommendations
+    recommendations = services.get_recommendations(the_similarest_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 266, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 172, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 118, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-11 13:59:29,562-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 161450
+[LINE:224]-ERROR-Thread-1-2021-04-11 14:01:19,994-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 62, in get_recommendations
+    recommendations = services.get_recommendations(the_similarest_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 266, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 172, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 118, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-11 14:01:19,998-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 161467
+[LINE:224]-WARNING-Thread-1-2021-04-11 14:36:51,811-log-Bad Request: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+[LINE:157]-WARNING-Thread-1-2021-04-11 14:36:51,812-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 400 10615
+[LINE:224]-ERROR-Thread-1-2021-04-11 14:39:09,985-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 40, in get_recommendations
+    recommendations = solve_recommendations(apple_id, song_number, step)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 204, in solve_recommendations
+    recommendations = get_recommendations(similar_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 119, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 139, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 85, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-11 14:39:09,993-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 164183
+[LINE:224]-ERROR-Thread-1-2021-04-11 14:41:21,952-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 39, in get_recommendations
+    recommendations = solve_recommendations(apple_id, song_number, step)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 204, in solve_recommendations
+    recommendations = get_recommendations(similar_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 119, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 139, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 85, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-11 14:41:21,957-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 164350
+[LINE:224]-ERROR-Thread-1-2021-04-11 14:41:52,611-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 39, in get_recommendations
+    recommendations = solve_recommendations(apple_id, song_number, step)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 204, in solve_recommendations
+    recommendations = get_recommendations(similar_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 119, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 139, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 85, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-11 14:41:52,615-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 164351
+[LINE:224]-ERROR-Thread-1-2021-04-11 14:42:12,872-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 39, in get_recommendations
+    recommendations = solve_recommendations(apple_id, song_number, step)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 205, in solve_recommendations
+    recommendations = get_recommendations(similar_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 119, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 139, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 85, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-11 14:42:12,876-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 164417
+[LINE:224]-ERROR-Thread-1-2021-04-11 14:45:47,598-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 39, in get_recommendations
+    recommendations = solve_recommendations(apple_id, song_number, step)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 204, in solve_recommendations
+    recommendations = get_recommendations(similar_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 119, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 139, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 85, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-11 14:45:47,602-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 164351
+[LINE:224]-ERROR-Thread-1-2021-04-11 14:47:22,242-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 39, in get_recommendations
+    recommendations = solve_recommendations(apple_id, song_number, step)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 204, in solve_recommendations
+    recommendations = get_recommendations(similar_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 119, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 139, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 85, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-11 14:47:22,247-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 164321
+[LINE:224]-ERROR-Thread-1-2021-04-11 14:48:58,077-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 39, in get_recommendations
+    recommendations = solve_recommendations(apple_id, song_number, step)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 204, in solve_recommendations
+    recommendations = get_recommendations(similar_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 119, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 140, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 85, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-11 14:48:58,081-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 164506
+[LINE:224]-ERROR-Thread-1-2021-04-11 14:49:33,917-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 39, in get_recommendations
+    recommendations = solve_recommendations(apple_id, song_number, step)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 204, in solve_recommendations
+    recommendations = get_recommendations(similar_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 119, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 139, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 85, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-11 14:49:33,923-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 164331
+[LINE:224]-ERROR-Thread-1-2021-04-11 14:50:21,319-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 39, in get_recommendations
+    recommendations = solve_recommendations(apple_id, song_number, step)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 204, in solve_recommendations
+    recommendations = get_recommendations(similar_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 119, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 140, in get_apple_recommendations
+    data = get_apple_recommendation_json(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 86, in get_apple_recommendation_json
+    return requests.get(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 71, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\api.py", line 57, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 475, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\sessions.py", line 585, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\adapters.py", line 393, in send
+    resp = conn.urlopen(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 575, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\requests\packages\urllib3\connectionpool.py", line 362, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1255, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1296, in _send_request
+    self.putheader(hdr, value)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\http\client.py", line 1232, in putheader
+    if _is_illegal_header_value(values[i]):
+TypeError: expected string or bytes-like object
+[LINE:157]-ERROR-Thread-1-2021-04-11 14:50:21,326-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 164354
+[LINE:224]-ERROR-Thread-1-2021-04-11 14:51:24,257-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 39, in get_recommendations
+    recommendations = solve_recommendations(apple_id, song_number, step)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 213, in solve_recommendations
+    random.shuffle(recommendations)
+AttributeError: 'builtin_function_or_method' object has no attribute 'shuffle'
+[LINE:157]-ERROR-Thread-1-2021-04-11 14:51:24,260-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 102945
+[LINE:224]-WARNING-Thread-2-2021-04-11 15:11:59,797-log-Not Found: /
+[LINE:157]-WARNING-Thread-2-2021-04-11 15:11:59,797-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-2-2021-04-11 15:20:53,709-log-Not Found: /
+[LINE:157]-WARNING-Thread-2-2021-04-11 15:20:53,711-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-2-2021-04-11 15:22:12,381-log-Method Not Allowed: /ru/playlist/plus_one_view/1556768323/
+[LINE:157]-WARNING-Thread-2-2021-04-11 15:22:12,382-basehttp-"GET /ru/playlist/plus_one_view/1556768323/ HTTP/1.1" 405 10584
+[LINE:224]-ERROR-Thread-2-2021-04-11 15:22:41,952-log-Internal Server Error: /ru/playlist/plus_one_view/1556768323/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 14, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 99, in plus_one_view
+    solve_songs([song_id, ])
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 19, in solve_songs
+    return get_db_songs_info(songs_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 15, in get_db_songs_info
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+[LINE:157]-ERROR-Thread-2-2021-04-11 15:22:41,958-basehttp-"POST /ru/playlist/plus_one_view/1556768323/ HTTP/1.1" 500 113694
+[LINE:224]-WARNING-Thread-1-2021-04-11 15:25:15,586-log-Method Not Allowed: /ru/playlist/plus_one_view/1556768323/
+[LINE:157]-WARNING-Thread-1-2021-04-11 15:25:15,586-basehttp-"GET /ru/playlist/plus_one_view/1556768323/ HTTP/1.1" 405 10584
+[LINE:224]-ERROR-Thread-1-2021-04-11 15:25:16,973-log-Internal Server Error: /ru/playlist/plus_one_view/1556768323/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 14, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 99, in plus_one_view
+    solve_songs([song_id, ])
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 19, in solve_songs
+    return get_db_songs_info(songs_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 15, in get_db_songs_info
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+[LINE:157]-ERROR-Thread-1-2021-04-11 15:25:16,978-basehttp-"POST /ru/playlist/plus_one_view/1556768323/ HTTP/1.1" 500 114202
+[LINE:224]-WARNING-Thread-1-2021-04-11 15:25:58,265-log-Method Not Allowed: /ru/playlist/plus_one_view/1556768323/
+[LINE:157]-WARNING-Thread-1-2021-04-11 15:25:58,266-basehttp-"GET /ru/playlist/plus_one_view/1556768323/ HTTP/1.1" 405 10584
+[LINE:224]-ERROR-Thread-1-2021-04-11 15:25:59,727-log-Internal Server Error: /ru/playlist/plus_one_view/1556768323/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 14, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\playlist\views.py", line 99, in plus_one_view
+    solve_songs([song_id, ])
+  File "D:\Programming\egor\SongTap\work_with_apple\creating.py", line 19, in solve_songs
+    return get_db_songs_info(songs_id)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 15, in get_db_songs_info
+    song = Song.objects.get(apple_id=song_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+playlist.models.Song.DoesNotExist: Song matching query does not exist.
+[LINE:157]-ERROR-Thread-1-2021-04-11 15:25:59,731-basehttp-"POST /ru/playlist/plus_one_view/1556768323/ HTTP/1.1" 500 113713
+[LINE:224]-WARNING-Thread-1-2021-04-11 15:26:59,719-log-Method Not Allowed: /ru/playlist/plus_one_view/1556768323/
+[LINE:157]-WARNING-Thread-1-2021-04-11 15:26:59,720-basehttp-"GET /ru/playlist/plus_one_view/1556768323/ HTTP/1.1" 405 10661

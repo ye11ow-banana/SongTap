@@ -1,0 +1,40 @@
+[LINE:224]-WARNING-Thread-1-2021-04-17 14:02:56,212-log-Not Found: /
+[LINE:157]-WARNING-Thread-1-2021-04-17 14:02:56,213-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-1-2021-04-17 14:02:56,303-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-1-2021-04-17 14:02:56,303-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:224]-WARNING-Thread-1-2021-04-17 14:03:15,923-log-Not Found: /ru/friends/get_sorted_users_by_similarity/
+[LINE:157]-WARNING-Thread-1-2021-04-17 14:03:15,923-basehttp-"GET /ru/friends/get_sorted_users_by_similarity/ HTTP/1.1" 404 4173
+[LINE:224]-WARNING-Thread-1-2021-04-17 14:27:27,416-log-Not Found: /ru/friends/get_sorted_users_by_similarity/admin/
+[LINE:157]-WARNING-Thread-1-2021-04-17 14:27:27,416-basehttp-"GET /ru/friends/get_sorted_users_by_similarity/admin/ HTTP/1.1" 404 4178
+[LINE:224]-ERROR-Thread-1-2021-04-17 14:29:29,183-log-Internal Server Error: /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\recomendations\views.py", line 39, in get_recommendations
+    recommendations = solve_recommendations(apple_id, song_number, step)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 205, in solve_recommendations
+    recommendations = get_recommendations(similar_users, music_user_token)
+  File "D:\Programming\egor\SongTap\recomendations\services.py", line 120, in get_recommendations
+    return get_apple_recommendations(music_user_token)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 140, in get_apple_recommendations
+    ids = get_playlists_id(data)
+  File "D:\Programming\egor\SongTap\work_with_apple\getting.py", line 96, in get_playlists_id
+    for rec in data['data']:
+KeyError: 'data'
+[LINE:157]-ERROR-Thread-1-2021-04-17 14:29:29,185-basehttp-"GET /ru/recomendations/get_recommendations/1/10/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 109945

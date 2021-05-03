@@ -1,0 +1,90 @@
+[LINE:224]-WARNING-Thread-1-2021-04-16 11:02:37,349-log-Not Found: /
+[LINE:157]-WARNING-Thread-1-2021-04-16 11:02:37,350-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-1-2021-04-16 11:02:37,355-log-Not Found: /
+[LINE:157]-WARNING-Thread-1-2021-04-16 11:02:37,355-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-1-2021-04-16 11:02:37,455-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-1-2021-04-16 11:02:37,455-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:224]-WARNING-Thread-1-2021-04-16 11:02:37,460-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-1-2021-04-16 11:02:37,460-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:224]-ERROR-Thread-3-2021-04-16 11:03:34,009-log-Internal Server Error: /ru/friends/get_similarest_users/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 77, in get_similar_users
+    ordinary_users = rec_services.get_ordinary_users(user)
+AttributeError: module 'recomendations.services' has no attribute 'get_ordinary_users'
+[LINE:157]-ERROR-Thread-3-2021-04-16 11:03:34,030-basehttp-"GET /ru/friends/get_similarest_users/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 500 94171
+[LINE:224]-ERROR-Thread-1-2021-04-16 11:30:27,783-log-Internal Server Error: /accounts/get_filtered_users/boss/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 120, in get_filtered_users
+    users_info = get_info_about_users(users)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 34, in get_info_about_users
+    for user_obj in users_obj:
+TypeError: 'AppUser' object is not iterable
+[LINE:157]-ERROR-Thread-1-2021-04-16 11:30:27,785-basehttp-"GET /accounts/get_filtered_users/boss/ HTTP/1.1" 500 96413
+[LINE:224]-ERROR-Thread-1-2021-04-16 11:30:51,271-log-Internal Server Error: /accounts/get_filtered_users/boss/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 119, in get_filtered_users
+    users = filter_users(data)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 130, in filter_users
+    return list(results)
+TypeError: 'AppUser' object is not iterable
+[LINE:157]-ERROR-Thread-1-2021-04-16 11:30:51,274-basehttp-"GET /accounts/get_filtered_users/boss/ HTTP/1.1" 500 95069
+[LINE:224]-WARNING-Thread-2-2021-04-16 11:46:04,285-log-Not Found: /accounts/get_filtered_users/boss/
+[LINE:157]-WARNING-Thread-2-2021-04-16 11:46:04,285-basehttp-"GET /accounts/get_filtered_users/boss/ HTTP/1.1" 404 3793
+[LINE:224]-WARNING-Thread-2-2021-04-16 12:31:56,329-log-Not Found: /
+[LINE:157]-WARNING-Thread-2-2021-04-16 12:31:56,330-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-2-2021-04-16 12:31:56,473-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-2-2021-04-16 12:31:56,473-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290

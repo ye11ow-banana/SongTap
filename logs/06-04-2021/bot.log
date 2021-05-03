@@ -1,0 +1,1421 @@
+[LINE:224]-WARNING-MainThread-2021-04-06 17:17:06,469-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:17:06,487-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:17:06,491-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:17:06,527-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:17:06,553-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:17:06,608-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:17:06,615-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:19:45,918-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:19:45,933-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:19:45,937-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:19:45,970-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:19:45,978-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:19:46,030-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:19:46,038-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:24:46,685-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:24:46,701-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:24:46,706-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:24:46,742-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:24:46,751-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:24:46,758-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:24:46,811-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:24:46,818-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:27:10,864-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:27:10,880-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:27:10,885-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:27:10,921-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:27:10,931-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:27:10,938-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:27:11,105-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:27:11,112-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:30:09,753-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:30:09,769-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:30:09,774-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:30:09,810-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:30:09,819-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:30:09,826-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:30:09,877-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:30:09,884-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:30:09,890-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:56:02,764-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:56:02,780-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:56:02,795-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:56:02,829-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:56:02,838-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:56:02,845-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:56:02,896-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:56:02,904-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:56:02,909-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:56:02,913-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:58:11,233-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:58:11,247-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:58:11,261-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:58:11,292-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:58:11,300-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:58:11,307-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:58:11,358-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:58:11,364-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:58:11,369-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:58:11,373-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:59:42,274-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:59:42,290-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:59:42,305-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:59:42,340-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:59:42,349-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:59:42,356-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:59:42,408-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:59:42,416-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:59:42,420-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 17:59:42,424-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:00:29,656-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:00:29,672-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:00:29,687-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:00:29,721-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:00:29,731-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:00:29,737-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:00:29,788-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:00:29,795-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:00:29,800-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:00:29,803-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:03:35,230-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:03:35,246-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:03:35,261-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:03:35,295-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:03:35,305-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:03:35,311-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:03:35,363-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:03:35,370-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:03:35,375-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:03:35,379-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:11,160-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:11,176-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:11,191-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:11,225-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:11,235-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:11,242-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:11,295-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:11,302-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:11,307-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:11,311-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:58,500-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:58,517-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:58,532-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:58,566-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:58,575-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:58,582-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:58,636-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:58,643-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:58,648-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:04:58,652-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:21:44,458-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:21:44,474-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:21:44,488-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:21:44,521-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:21:44,529-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-ERROR-MainThread-2021-04-06 18:21:44,542-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+[LINE:224]-WARNING-MainThread-2021-04-06 18:21:44,629-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:21:44,636-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:21:44,641-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:21:44,645-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:26:37,669-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:26:37,685-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:26:37,701-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:26:37,735-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:26:37,744-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-ERROR-MainThread-2021-04-06 18:26:37,756-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 202, in _get_response
+    response = response.render()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\response.py", line 105, in render
+    self.content = self.rendered_content
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\response.py", line 55, in rendered_content
+    assert renderer, ".accepted_renderer not set on Response"
+AssertionError: .accepted_renderer not set on Response
+[LINE:224]-WARNING-MainThread-2021-04-06 18:26:37,807-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:26:37,814-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:26:37,818-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:26:37,822-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:28:21,693-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:28:21,708-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:28:21,723-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:28:21,755-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:28:21,763-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:28:21,769-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:28:21,819-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:28:21,826-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:28:21,830-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:28:21,834-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-Thread-1-2021-04-06 18:29:29,665-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-06 18:29:29,666-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 51
+[LINE:224]-ERROR-Thread-1-2021-04-06 18:29:40,696-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 11, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 26, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 98, in get_error_or_create_or_update_account
+    old_music_user_token = MusicUserToken.objects.get(user=user).music_user_token
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+recomendations.models.MusicUserToken.DoesNotExist: MusicUserToken matching query does not exist.
+[LINE:157]-ERROR-Thread-1-2021-04-06 18:29:40,700-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 500 106566
+[LINE:224]-WARNING-Thread-1-2021-04-06 18:35:34,977-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-06 18:35:34,978-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 51
+[LINE:224]-WARNING-MainThread-2021-04-06 18:36:07,198-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:36:07,215-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:36:07,230-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:36:07,264-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:36:07,273-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:36:07,280-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:36:07,332-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:36:07,339-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:36:07,344-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:36:07,348-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-Thread-1-2021-04-06 18:37:37,922-log-Not Found: /accounts/update_username/
+[LINE:157]-WARNING-Thread-1-2021-04-06 18:37:37,923-basehttp-"POST /accounts/update_username/ HTTP/1.1" 404 3068
+[LINE:224]-WARNING-Thread-1-2021-04-06 18:38:02,208-log-Bad Request: /accounts/update_login/
+[LINE:157]-WARNING-Thread-1-2021-04-06 18:38:02,209-basehttp-"POST /accounts/update_login/ HTTP/1.1" 400 51
+[LINE:224]-WARNING-Thread-1-2021-04-06 18:38:11,098-log-Bad Request: /accounts/update_login/
+[LINE:157]-WARNING-Thread-1-2021-04-06 18:38:11,098-basehttp-"POST /accounts/update_login/ HTTP/1.1" 400 58
+[LINE:224]-WARNING-Thread-1-2021-04-06 18:38:32,045-log-Bad Request: /accounts/update_login/
+[LINE:157]-WARNING-Thread-1-2021-04-06 18:38:32,046-basehttp-"POST /accounts/update_login/ HTTP/1.1" 400 53
+[LINE:224]-WARNING-Thread-1-2021-04-06 18:38:48,702-log-Bad Request: /accounts/update_login/
+[LINE:157]-WARNING-Thread-1-2021-04-06 18:38:48,702-basehttp-"POST /accounts/update_login/ HTTP/1.1" 400 53
+[LINE:224]-WARNING-Thread-2-2021-04-06 18:39:02,101-log-Not Found: /
+[LINE:157]-WARNING-Thread-2-2021-04-06 18:39:02,102-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-2-2021-04-06 18:39:02,203-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-2-2021-04-06 18:39:02,203-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:224]-WARNING-MainThread-2021-04-06 18:39:33,610-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:39:33,626-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:39:33,640-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:39:33,675-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:39:33,684-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:39:33,691-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:39:33,742-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:39:33,749-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:39:33,753-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 18:39:33,758-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-Thread-1-2021-04-06 19:36:48,447-log-Not Found: /
+[LINE:157]-WARNING-Thread-1-2021-04-06 19:36:48,455-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-1-2021-04-06 19:36:48,560-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-1-2021-04-06 19:36:48,561-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:224]-WARNING-MainThread-2021-04-06 19:37:45,103-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:37:45,118-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:37:45,132-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:37:45,165-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:37:45,174-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:37:45,180-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:37:45,231-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:37:45,238-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:37:45,243-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:37:45,248-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:47:11,221-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:47:11,237-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:47:11,253-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:47:11,289-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:47:11,298-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:47:11,305-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:47:11,356-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:47:11,364-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:47:11,369-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 19:47:11,374-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-06 20:12:20,030-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-06 20:12:20,035-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-06 20:25:47,374-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-06 20:25:47,379-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-06 20:26:32,039-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-06 20:26:32,044-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-06 20:27:56,550-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-06 20:27:56,555-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-ERROR-MainThread-2021-04-06 20:29:35,167-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-ERROR-MainThread-2021-04-06 20:29:35,201-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-ERROR-MainThread-2021-04-06 20:30:03,767-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-ERROR-MainThread-2021-04-06 20:30:03,780-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-ERROR-MainThread-2021-04-06 20:31:37,945-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-ERROR-MainThread-2021-04-06 20:31:37,958-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-ERROR-MainThread-2021-04-06 20:32:48,852-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-ERROR-MainThread-2021-04-06 20:32:48,865-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-ERROR-MainThread-2021-04-06 20:34:14,780-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-ERROR-MainThread-2021-04-06 20:34:14,793-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-ERROR-MainThread-2021-04-06 20:35:29,533-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-ERROR-MainThread-2021-04-06 20:35:29,546-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-ERROR-MainThread-2021-04-06 20:37:09,295-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-WARNING-Thread-2-2021-04-06 21:14:56,286-log-Not Found: /
+[LINE:157]-WARNING-Thread-2-2021-04-06 21:14:56,287-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-2-2021-04-06 21:14:56,397-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-2-2021-04-06 21:14:56,397-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:224]-ERROR-MainThread-2021-04-06 21:16:05,913-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-WARNING-Thread-9-2021-04-06 21:18:28,469-log-Method Not Allowed: /ru/friends/create_friend/
+[LINE:157]-WARNING-Thread-9-2021-04-06 21:18:28,469-basehttp-"GET /ru/friends/create_friend/ HTTP/1.1" 405 54
+[LINE:224]-WARNING-Thread-10-2021-04-06 21:18:50,163-log-Method Not Allowed: /ru/friends/create_friend/
+[LINE:157]-WARNING-Thread-10-2021-04-06 21:18:50,163-basehttp-"GET /ru/friends/create_friend/ HTTP/1.1" 405 54
+[LINE:224]-WARNING-Thread-6-2021-04-06 21:19:21,857-log-Method Not Allowed: /ru/friends/create_friend/
+[LINE:157]-WARNING-Thread-6-2021-04-06 21:19:21,858-basehttp-"GET /ru/friends/create_friend/ HTTP/1.1" 405 10536
+[LINE:224]-WARNING-Thread-5-2021-04-06 21:19:22,265-log-Method Not Allowed: /ru/friends/create_friend/
+[LINE:157]-WARNING-Thread-5-2021-04-06 21:19:22,266-basehttp-"GET /ru/friends/create_friend/ HTTP/1.1" 405 10536
+[LINE:224]-ERROR-Thread-5-2021-04-06 21:19:28,535-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:157]-ERROR-Thread-5-2021-04-06 21:19:28,540-basehttp-"POST /ru/friends/create_friend/ HTTP/1.1" 500 165391
+[LINE:224]-ERROR-Thread-10-2021-04-06 21:19:42,079-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:157]-ERROR-Thread-10-2021-04-06 21:19:42,081-basehttp-"POST /ru/friends/create_friend/ HTTP/1.1" 500 162858
+[LINE:224]-ERROR-Thread-1-2021-04-06 21:20:33,777-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:157]-ERROR-Thread-1-2021-04-06 21:20:33,787-basehttp-"POST /ru/friends/create_friend/ HTTP/1.1" 500 162899
+[LINE:224]-ERROR-Thread-1-2021-04-06 21:21:12,224-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 32, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:157]-ERROR-Thread-1-2021-04-06 21:21:12,230-basehttp-"POST /ru/friends/create_friend/ HTTP/1.1" 500 162931
+[LINE:224]-ERROR-Thread-1-2021-04-06 21:26:41,788-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 31, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:157]-ERROR-Thread-1-2021-04-06 21:26:41,793-basehttp-"POST /ru/friends/create_friend/ HTTP/1.1" 500 162903
+[LINE:224]-ERROR-Thread-1-2021-04-06 21:43:06,021-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 32, in create_friend
+    services.create_friend(user, friend)
+  File "D:\Programming\egor\SongTap\friends\services.py", line 81, in create_friend
+    Friend.objects.get_or_create(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:157]-ERROR-Thread-1-2021-04-06 21:43:06,027-basehttp-"POST /ru/friends/create_friend/ HTTP/1.1" 500 162885
+[LINE:224]-WARNING-Thread-1-2021-04-06 22:06:43,076-log-Bad Request: /ru/friends/create_friend/
+[LINE:157]-WARNING-Thread-1-2021-04-06 22:06:43,076-basehttp-"POST /ru/friends/create_friend/ HTTP/1.1" 400 51

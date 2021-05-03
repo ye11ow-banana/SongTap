@@ -1,0 +1,658 @@
+[LINE:224]-WARNING-MainThread-2021-04-07 08:39:57,150-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:39:57,166-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:39:57,182-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:39:57,214-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:39:57,233-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:39:57,240-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:39:57,295-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:39:57,303-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:39:57,308-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:39:57,314-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:32,659-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:32,675-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:32,689-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:32,721-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:32,730-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:32,735-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:32,786-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:32,793-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:32,798-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:32,803-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:42,660-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:42,675-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:42,690-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:42,722-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:42,730-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:42,736-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:42,788-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:42,795-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:42,799-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-07 08:41:42,803-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-07 09:15:17,122-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 09:17:24,001-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 09:17:46,597-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 09:21:40,833-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 09:21:40,838-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 09:26:49,051-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 09:26:49,055-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-ERROR-MainThread-2021-04-07 09:26:49,077-log-Internal Server Error: /ru/friends/create_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 28, in create_friend
+    friend = services.get_user_by_username_or_email(request.data['friend_data'])[0]
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 325, in __getitem__
+    return qs._result_cache[0]
+IndexError: list index out of range
+[LINE:224]-WARNING-MainThread-2021-04-07 09:26:49,102-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 09:27:23,252-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 09:27:23,256-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 09:27:23,271-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 09:27:23,275-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:02:08,171-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:02:08,175-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:02:08,190-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:02:08,195-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:43:32,167-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:43:32,171-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:43:32,186-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:43:32,191-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:44:24,333-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:44:24,337-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:44:24,352-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:44:24,357-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:44:43,290-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:44:43,294-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:44:43,309-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:44:43,314-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 10:44:43,372-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:30:54,911-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:30:54,916-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:30:54,931-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:30:54,935-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:30:55,016-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:31:56,340-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:31:56,344-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:31:56,358-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:31:56,362-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:31:56,432-log-Bad Request: /ru/friends/view_friends_likes/1dfg/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:32:12,536-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:32:12,540-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:32:12,555-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:32:12,560-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:32:12,635-log-Bad Request: /ru/friends/view_friends_likes/1dfg/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:33:20,687-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:33:20,692-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:33:20,707-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:33:20,711-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:33:20,784-log-Bad Request: /ru/friends/view_friends_likes/1dfg/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:35:55,651-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:35:55,655-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:35:55,671-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:35:55,675-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:35:55,737-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:35:55,798-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:39:29,937-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:39:29,941-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:39:29,956-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:39:29,961-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:39:30,024-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:39:30,077-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:39:30,138-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:56:10,443-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:56:10,447-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:56:10,463-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:56:10,467-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:56:10,532-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:56:10,585-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:56:10,659-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:57:41,720-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:57:41,725-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:57:41,740-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:57:41,745-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:57:41,815-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:57:41,872-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 15:57:41,943-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:36:55,207-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:36:55,211-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:36:55,225-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:36:55,229-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:36:55,292-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:36:55,345-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:36:55,423-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:37:24,634-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:37:24,639-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:37:24,654-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:37:24,659-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:37:24,723-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:37:24,777-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:37:24,854-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:38:31,426-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:38:31,430-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:38:31,444-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:38:31,448-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:38:31,511-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:38:31,564-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:38:32,057-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:18,734-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:18,738-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:18,752-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:18,757-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:18,819-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:18,873-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:19,331-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:46,005-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:46,009-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:46,024-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:46,028-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:46,091-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:46,145-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:44:46,593-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:25,700-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:25,704-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:25,719-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:25,723-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:25,786-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:25,840-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:26,290-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:55,160-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:55,164-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:55,179-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:55,184-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:55,247-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:55,300-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:45:55,747-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:48:04,934-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:48:04,938-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:48:04,953-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:48:04,957-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:48:05,021-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:48:05,074-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:48:05,149-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-Thread-1-2021-04-07 16:49:05,307-log-Not Found: /
+[LINE:157]-WARNING-Thread-1-2021-04-07 16:49:05,307-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-1-2021-04-07 16:49:05,403-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-1-2021-04-07 16:49:05,403-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:30,482-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:30,486-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:30,501-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:30,506-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:30,569-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:30,623-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:30,684-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:30,689-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:57,769-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:57,774-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:57,788-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:57,793-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:57,858-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:57,912-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:51:58,398-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:52:25,624-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:52:25,628-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:52:25,643-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:52:25,647-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:52:25,712-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:52:25,767-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:52:26,230-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:08,057-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:08,061-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:08,075-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:08,080-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:08,142-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:08,196-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:08,244-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:08,247-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:47,687-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:47,691-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:47,706-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:47,711-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:47,775-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:47,830-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:53:47,892-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:55:28,792-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:55:28,796-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:55:28,809-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:55:28,813-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:55:28,886-log-Bad Request: /ru/friends/get_friends_songs/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:55:28,939-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:55:28,991-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 16:55:29,048-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:00:33,837-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:00:33,841-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:00:33,854-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:00:33,858-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:00:33,910-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:00:33,918-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-ERROR-MainThread-2021-04-07 17:00:33,929-log-Internal Server Error: /ru/friends/delete_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 117, in delete_friend
+    friend = Friend.objects.get(user=user, friend=friend)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-WARNING-MainThread-2021-04-07 17:00:34,028-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:00:34,031-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-ERROR-MainThread-2021-04-07 17:00:34,038-log-Internal Server Error: /ru/friends/delete_friend/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\friends\views.py", line 117, in delete_friend
+    friend = Friend.objects.get(user=user, friend=friend)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 425, in get
+    num = len(clone)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 269, in __len__
+    self._fetch_all()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1308, in _fetch_all
+    self._result_cache = list(self._iterable_class(self))
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 53, in __iter__
+    results = compiler.execute_sql(chunked_fetch=self.chunked_fetch, chunk_size=self.chunk_size)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1143, in execute_sql
+    sql, params = self.as_sql()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 513, in as_sql
+    where, w_params = self.compile(self.where) if self.where is not None else ("", [])
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\where.py", line 81, in as_sql
+    sql, params = compiler.compile(child)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 430, in compile
+    sql, params = node.as_sql(self, self.connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\fields\related_lookups.py", line 132, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 302, in as_sql
+    return super().as_sql(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 181, in as_sql
+    rhs_sql, rhs_params = self.process_rhs(compiler, connection)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\lookups.py", line 284, in process_rhs
+    raise ValueError(
+ValueError: The QuerySet value for an exact lookup must be limited to one result using slicing.
+[LINE:224]-WARNING-MainThread-2021-04-07 17:00:34,106-log-Bad Request: /ru/friends/get_friends_songs/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:00:34,161-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:00:34,216-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:00:34,273-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:15,780-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:15,785-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:15,799-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:15,804-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:15,859-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:15,866-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:15,874-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:15,881-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:15,884-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:15,891-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:15,954-log-Bad Request: /ru/friends/get_friends_songs/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:16,007-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:16,059-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:01:16,115-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:31,868-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:31,872-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:31,886-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:31,890-log-Bad Request: /ru/friends/create_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:31,942-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:31,950-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:31,958-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:31,964-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:31,968-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:31,976-log-Bad Request: /ru/friends/delete_friend/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:32,040-log-Bad Request: /ru/friends/get_friends_songs/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:32,093-log-Bad Request: /ru/friends/get_friends/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:32,146-log-Bad Request: /ru/friends/get_similarest_users/1/
+[LINE:224]-WARNING-MainThread-2021-04-07 17:02:32,202-log-Bad Request: /ru/friends/view_friends_likes/1/
+[LINE:224]-WARNING-Thread-1-2021-04-07 17:21:33,670-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-07 17:21:33,670-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 51
+[LINE:224]-WARNING-Thread-1-2021-04-07 17:25:21,970-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-07 17:25:21,971-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 67
+[LINE:224]-WARNING-Thread-1-2021-04-07 17:25:25,981-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-07 17:25:25,981-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 104
+[LINE:224]-ERROR-Thread-1-2021-04-07 17:25:39,059-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.StringDataRightTruncation: ОШИБКА:  значение не умещается в тип character varying(1)
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 26, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 100, in get_error_or_create_or_update_account
+    result = update_user_data_if_email_valid(request, user)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 55, in update_user_data_if_email_valid
+    user.save()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 872, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 926, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 803, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1522, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: ОШИБКА:  значение не умещается в тип character varying(1)
+
+[LINE:157]-ERROR-Thread-1-2021-04-07 17:25:39,068-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 500 182720
+[LINE:224]-WARNING-Thread-2-2021-04-07 17:26:04,733-log-Method Not Allowed: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-2-2021-04-07 17:26:04,733-basehttp-"GET /accounts/get_or_create_or_update_account/ HTTP/1.1" 405 10600
+[LINE:224]-WARNING-Thread-6-2021-04-07 17:26:04,936-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-6-2021-04-07 17:26:04,937-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:224]-ERROR-Thread-6-2021-04-07 17:26:33,216-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.StringDataRightTruncation: ОШИБКА:  значение не умещается в тип character varying(1)
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 12, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 26, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 100, in get_error_or_create_or_update_account
+    result = update_user_data_if_email_valid(request, user)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 55, in update_user_data_if_email_valid
+    user.save()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 872, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 926, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 803, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1522, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: ОШИБКА:  значение не умещается в тип character varying(1)
+
+[LINE:157]-ERROR-Thread-6-2021-04-07 17:26:33,219-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 500 185180
+[LINE:224]-ERROR-Thread-1-2021-04-07 17:49:04,889-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.StringDataRightTruncation: ОШИБКА:  значение не умещается в тип character varying(1)
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\core\check_post.py", line 13, in inner
+    return fn(request, *args, *kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 26, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 100, in get_error_or_create_or_update_account
+    result = update_user_data_if_email_valid(request, user)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 55, in update_user_data_if_email_valid
+    user.save()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 872, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 926, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 803, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1522, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: ОШИБКА:  значение не умещается в тип character varying(1)
+
+[LINE:157]-ERROR-Thread-1-2021-04-07 17:49:04,895-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 500 183166
+[LINE:224]-WARNING-Thread-1-2021-04-07 17:51:37,784-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-07 17:51:37,784-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 90
+[LINE:224]-WARNING-Thread-1-2021-04-07 17:51:56,982-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-07 17:51:56,983-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 37
+[LINE:224]-WARNING-Thread-1-2021-04-07 17:53:03,004-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-07 17:53:03,004-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 83
+[LINE:224]-WARNING-Thread-1-2021-04-07 17:54:31,090-log-Bad Request: /accounts/update_login/
+[LINE:157]-WARNING-Thread-1-2021-04-07 17:54:31,091-basehttp-"POST /accounts/update_login/ HTTP/1.1" 400 58
+[LINE:224]-WARNING-Thread-1-2021-04-07 17:54:44,341-log-Bad Request: /accounts/update_login/
+[LINE:157]-WARNING-Thread-1-2021-04-07 17:54:44,342-basehttp-"POST /accounts/update_login/ HTTP/1.1" 400 74
+[LINE:224]-WARNING-Thread-1-2021-04-07 17:56:43,746-log-Not Found: /ru/recommendations/get_recommendations/1/500/000088.60e2b920980f4125b69eef04cc7304b2.1329/
+[LINE:157]-WARNING-Thread-1-2021-04-07 17:56:43,747-basehttp-"GET /ru/recommendations/get_recommendations/1/500/000088.60e2b920980f4125b69eef04cc7304b2.1329/ HTTP/1.1" 404 2906
+[LINE:224]-WARNING-Thread-1-2021-04-07 20:01:37,635-log-Not Found: /
+[LINE:157]-WARNING-Thread-1-2021-04-07 20:01:37,635-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-1-2021-04-07 20:01:47,629-log-Not Found: /accounts/show_rules
+[LINE:157]-WARNING-Thread-1-2021-04-07 20:01:47,629-basehttp-"GET /accounts/show_rules HTTP/1.1" 404 3382
+[LINE:224]-WARNING-Thread-1-2021-04-07 20:01:51,044-log-Not Found: /accounts/show_rules/
+[LINE:157]-WARNING-Thread-1-2021-04-07 20:01:51,045-basehttp-"GET /accounts/show_rules/ HTTP/1.1" 404 3385
+[LINE:224]-ERROR-Thread-1-2021-04-07 20:02:02,173-log-Internal Server Error: /accounts/rules/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 97, in show_rules
+    return render(request, './static_pages/rules.html')
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\shortcuts.py", line 19, in render
+    content = loader.render_to_string(template_name, context, request, using=using)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader.py", line 61, in render_to_string
+    template = get_template(template_name, using=using)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\template\loader.py", line 19, in get_template
+    raise TemplateDoesNotExist(template_name, chain=chain)
+django.template.exceptions.TemplateDoesNotExist: ./static_pages/rules.html
+[LINE:157]-ERROR-Thread-1-2021-04-07 20:02:02,175-basehttp-"GET /accounts/rules/ HTTP/1.1" 500 105509
+[LINE:224]-WARNING-Thread-1-2021-04-07 20:03:33,271-log-Not Found: /accounts/rules/rules.css
+[LINE:157]-WARNING-Thread-1-2021-04-07 20:03:33,271-basehttp-"GET /accounts/rules/rules.css HTTP/1.1" 404 3397
+[LINE:224]-WARNING-Thread-1-2021-04-07 20:03:41,059-log-Not Found: /accounts/rules/rules.css
+[LINE:157]-WARNING-Thread-1-2021-04-07 20:03:41,059-basehttp-"GET /accounts/rules/rules.css HTTP/1.1" 404 3397
+[LINE:224]-WARNING-Thread-1-2021-04-07 20:03:50,989-log-Not Found: /accounts/privacy_policy/privacy_policy.css
+[LINE:157]-WARNING-Thread-1-2021-04-07 20:03:50,989-basehttp-"GET /accounts/privacy_policy/privacy_policy.css HTTP/1.1" 404 3451
+[LINE:224]-WARNING-Thread-3-2021-04-07 20:09:33,321-log-Not Found: /accounts/rules/rules.css
+[LINE:157]-WARNING-Thread-3-2021-04-07 20:09:33,322-basehttp-"GET /accounts/rules/rules.css HTTP/1.1" 404 3397
+[LINE:157]-WARNING-Thread-3-2021-04-07 20:09:34,422-basehttp-"GET /static/static_pages/privacy_policy.css HTTP/1.1" 404 1719
+[LINE:157]-WARNING-Thread-4-2021-04-07 20:09:45,339-basehttp-"GET /static/static_pages/privacy_policy.css HTTP/1.1" 404 1719
+[LINE:157]-WARNING-Thread-5-2021-04-07 20:09:46,825-basehttp-"GET /static/static_pages/privacy_policy.css HTTP/1.1" 404 1719
+[LINE:157]-WARNING-Thread-6-2021-04-07 20:09:50,414-basehttp-"GET /static/static_pages/privacy_policy.css HTTP/1.1" 404 1719
+[LINE:157]-WARNING-Thread-7-2021-04-07 20:10:12,768-basehttp-"GET /static/ HTTP/1.1" 404 1692
+[LINE:157]-WARNING-Thread-8-2021-04-07 20:10:33,048-basehttp-"GET /static/static_pages/privacy_policy.css HTTP/1.1" 404 1719
+[LINE:157]-WARNING-Thread-9-2021-04-07 20:10:38,164-basehttp-"GET /static/privacy_policy.css HTTP/1.1" 404 1680

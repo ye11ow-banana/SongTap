@@ -1,0 +1,12 @@
+[LINE:224]-WARNING-Thread-2-2021-04-15 12:10:05,798-log-Not Found: /
+[LINE:157]-WARNING-Thread-2-2021-04-15 12:10:05,799-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-2-2021-04-15 12:10:07,015-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-2-2021-04-15 12:10:07,016-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:224]-WARNING-Thread-3-2021-04-15 12:10:39,964-log-Method Not Allowed: /ru/friends/create_friend/
+[LINE:157]-WARNING-Thread-3-2021-04-15 12:10:39,964-basehttp-"GET /ru/friends/create_friend/ HTTP/1.1" 405 10536
+[LINE:224]-WARNING-Thread-1-2021-04-15 12:10:41,022-log-Method Not Allowed: /ru/friends/create_friend/
+[LINE:157]-WARNING-Thread-1-2021-04-15 12:10:41,023-basehttp-"GET /ru/friends/create_friend/ HTTP/1.1" 405 10536
+[LINE:224]-WARNING-Thread-8-2021-04-15 12:11:53,434-log-Method Not Allowed: /ru/friends/create_friend/
+[LINE:157]-WARNING-Thread-8-2021-04-15 12:11:53,435-basehttp-"GET /ru/friends/create_friend/ HTTP/1.1" 405 10536
+[LINE:224]-WARNING-Thread-10-2021-04-15 12:12:27,470-log-Method Not Allowed: /ru/friends/create_friend/
+[LINE:157]-WARNING-Thread-10-2021-04-15 12:12:27,471-basehttp-"GET /ru/friends/create_friend/ HTTP/1.1" 405 54

@@ -1,0 +1,627 @@
+[LINE:224]-WARNING-Thread-2-2021-04-05 10:42:05,188-log-Not Found: /
+[LINE:157]-WARNING-Thread-2-2021-04-05 10:42:05,189-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-2-2021-04-05 10:42:05,283-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-2-2021-04-05 10:42:05,284-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:224]-WARNING-Thread-2-2021-04-05 10:42:12,131-log-Method Not Allowed: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-2-2021-04-05 10:42:12,131-basehttp-"GET /accounts/get_or_create_or_update_account/ HTTP/1.1" 405 10835
+[LINE:224]-ERROR-Thread-5-2021-04-05 10:42:17,809-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 24, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 90, in get_error_or_create_or_update_account
+    music_user_token = request.data['music_user_token']
+KeyError: 'music_user_token'
+[LINE:157]-ERROR-Thread-5-2021-04-05 10:42:17,812-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 500 95610
+[LINE:224]-WARNING-Thread-1-2021-04-05 12:26:20,199-log-Not Found: /
+[LINE:157]-WARNING-Thread-1-2021-04-05 12:26:20,199-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-ERROR-Thread-3-2021-04-05 12:28:40,747-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 24, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 90, in get_error_or_create_or_update_account
+    music_user_token = request.data['music_user_token']
+TypeError: string indices must be integers
+[LINE:157]-ERROR-Thread-3-2021-04-05 12:28:40,749-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 500 92973
+[LINE:224]-ERROR-Thread-1-2021-04-05 12:37:01,156-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 24, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 91, in get_error_or_create_or_update_account
+    music_user_token = request.data['music_user_token']
+TypeError: string indices must be integers
+[LINE:157]-ERROR-Thread-1-2021-04-05 12:37:01,158-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 500 92987
+[LINE:224]-ERROR-MainThread-2021-04-05 13:13:31,117-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.StringDataRightTruncation: ОШИБКА:  значение не умещается в тип character varying(1)
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 24, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 98, in get_error_or_create_or_update_account
+    result = update_user_data_if_email_valid(request, user)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 55, in update_user_data_if_email_valid
+    user.save()
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 872, in _save_table
+    updated = self._do_update(base_qs, using, pk_val, values, update_fields,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 926, in _do_update
+    return filtered._update(values) > 0
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 803, in _update
+    return query.get_compiler(self.db).execute_sql(CURSOR)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1522, in execute_sql
+    cursor = super().execute_sql(result_type)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1156, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.DataError: ОШИБКА:  значение не умещается в тип character varying(1)
+
+[LINE:224]-WARNING-MainThread-2021-04-05 13:16:08,428-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:03:08,131-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:03:08,146-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:04:57,909-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:04:57,925-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:06:13,545-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:06:13,560-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:06:53,455-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:06:53,471-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:08:11,001-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:08:11,017-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:09:45,931-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:09:45,946-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:10:21,792-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:10:21,807-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:11:21,296-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:11:21,311-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:13:07,528-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:13:07,543-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:15:09,673-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:33:52,469-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:34:45,829-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:34:45,856-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:37:23,058-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:37:23,086-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:40:06,581-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:40:06,609-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:40:44,746-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:40:44,773-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:43:10,725-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:43:10,752-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:49:32,506-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:49:32,538-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:51:05,701-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:51:05,734-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:51:27,727-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:51:27,758-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:53:12,731-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:53:12,764-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:53:48,083-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:53:48,116-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:57:46,181-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:57:46,213-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:58:59,025-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 14:58:59,058-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 15:01:04,943-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 15:01:05,001-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 15:01:25,124-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 15:01:25,155-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 15:04:15,650-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 15:04:15,695-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-ERROR-MainThread-2021-04-05 16:04:39,881-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+accounts.models.AppUser.DoesNotExist: AppUser matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "accounts_appuser_username_9abbb925_uniq"
+DETAIL:  Ключ "(username)=()" уже существует.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 24, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 93, in get_error_or_create_or_update_account
+    user, _ = AppUser.objects.get_or_create(apple_id=apple_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 576, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 610, in _create_object_from_params
+    obj = self.create(**params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "accounts_appuser_username_9abbb925_uniq"
+DETAIL:  Ключ "(username)=()" уже существует.
+
+[LINE:224]-WARNING-MainThread-2021-04-05 16:04:39,905-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-ERROR-MainThread-2021-04-05 16:06:48,751-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+accounts.models.AppUser.DoesNotExist: AppUser matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "accounts_appuser_username_9abbb925_uniq"
+DETAIL:  Ключ "(username)=()" уже существует.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 24, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 93, in get_error_or_create_or_update_account
+    user, _ = AppUser.objects.get_or_create(apple_id=apple_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 576, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 610, in _create_object_from_params
+    obj = self.create(**params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "accounts_appuser_username_9abbb925_uniq"
+DETAIL:  Ключ "(username)=()" уже существует.
+
+[LINE:224]-WARNING-MainThread-2021-04-05 16:06:48,776-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:06:48,815-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-ERROR-MainThread-2021-04-05 16:08:48,311-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+accounts.models.AppUser.DoesNotExist: AppUser matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "accounts_appuser_username_9abbb925_uniq"
+DETAIL:  Ключ "(username)=()" уже существует.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 24, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 93, in get_error_or_create_or_update_account
+    user, _ = AppUser.objects.get_or_create(apple_id=apple_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 576, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 610, in _create_object_from_params
+    obj = self.create(**params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "accounts_appuser_username_9abbb925_uniq"
+DETAIL:  Ключ "(username)=()" уже существует.
+
+[LINE:224]-WARNING-MainThread-2021-04-05 16:08:48,335-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:08:48,370-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:08:48,378-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-ERROR-MainThread-2021-04-05 16:11:15,669-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 573, in get_or_create
+    return self.get(**kwargs), False
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+accounts.models.AppUser.DoesNotExist: AppUser matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "accounts_appuser_username_9abbb925_uniq"
+DETAIL:  Ключ "(username)=()" уже существует.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 24, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 93, in get_error_or_create_or_update_account
+    user, _ = AppUser.objects.get_or_create(apple_id=apple_id)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 576, in get_or_create
+    return self._create_object_from_params(kwargs, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 610, in _create_object_from_params
+    obj = self.create(**params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\contrib\auth\base_user.py", line 67, in save
+    super().save(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "accounts_appuser_username_9abbb925_uniq"
+DETAIL:  Ключ "(username)=()" уже существует.
+
+[LINE:224]-WARNING-MainThread-2021-04-05 16:11:15,694-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:11:15,733-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:11:15,742-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:13:53,615-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:13:53,632-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:13:53,675-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:14:33,930-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:14:33,944-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:14:33,976-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:14:33,983-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:16:10,622-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:16:10,637-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:16:10,671-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:16:10,679-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-ERROR-MainThread-2021-04-05 16:21:35,028-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 24, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 113, in get_error_or_create_or_update_account
+    m_u_t.music_user_token = old_music_user_token
+UnboundLocalError: local variable 'old_music_user_token' referenced before assignment
+[LINE:224]-ERROR-MainThread-2021-04-05 16:21:35,047-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 24, in get_or_create_or_update_account
+    result = services.get_error_or_create_or_update_account(request)
+  File "D:\Programming\egor\SongTap\accounts\services.py", line 113, in get_error_or_create_or_update_account
+    m_u_t.music_user_token = old_music_user_token
+UnboundLocalError: local variable 'old_music_user_token' referenced before assignment
+[LINE:224]-WARNING-MainThread-2021-04-05 16:21:35,087-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:21:35,097-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:24:07,042-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:24:07,057-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:24:07,095-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:24:07,105-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:31:56,263-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:31:56,279-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:31:56,315-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:31:56,324-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:32:23,484-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:32:23,501-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:32:23,537-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:32:23,547-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:33:14,522-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:33:14,537-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:33:14,573-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:33:14,583-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:44:20,527-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:44:20,541-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:44:20,575-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:44:20,584-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:44:20,635-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:44:20,642-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:46:13,195-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:46:13,211-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:46:13,248-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:46:13,257-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:46:13,315-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-05 16:46:13,323-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-05 18:34:49,710-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 18:34:49,737-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 18:34:49,773-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 18:34:49,788-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 18:34:49,839-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-05 18:34:49,847-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-05 18:36:05,693-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 18:36:05,713-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 18:36:05,760-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 18:36:05,771-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:224]-WARNING-MainThread-2021-04-05 18:36:05,825-log-Bad Request: /accounts/update_login/
+[LINE:224]-WARNING-MainThread-2021-04-05 18:36:05,834-log-Bad Request: /accounts/update_login/

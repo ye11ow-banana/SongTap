@@ -1,0 +1,193 @@
+[LINE:224]-WARNING-Thread-2-2021-04-03 19:44:10,853-log-Not Found: /
+[LINE:157]-WARNING-Thread-2-2021-04-03 19:44:10,853-basehttp-"GET / HTTP/1.1" 404 2239
+[LINE:224]-WARNING-Thread-2-2021-04-03 19:44:10,943-log-Not Found: /favicon.ico
+[LINE:157]-WARNING-Thread-2-2021-04-03 19:44:10,944-basehttp-"GET /favicon.ico HTTP/1.1" 404 2290
+[LINE:88]-ERROR-Thread-7-2021-04-03 19:45:32,006-exception-Invalid HTTP_HOST header: 'DESKTOP-F2O491B:8000'. You may need to add 'desktop-f2o491b' to ALLOWED_HOSTS.
+[LINE:224]-WARNING-Thread-7-2021-04-03 19:45:32,056-log-Bad Request: /ru/accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-7-2021-04-03 19:45:32,056-basehttp-"POST /ru/accounts/get_or_create_or_update_account/ HTTP/1.1" 400 65265
+[LINE:224]-WARNING-Thread-8-2021-04-03 19:46:09,824-log-Not Found: /ru/accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-8-2021-04-03 19:46:09,824-basehttp-"POST /ru/accounts/get_or_create_or_update_account/ HTTP/1.1" 404 2769
+[LINE:224]-WARNING-Thread-8-2021-04-03 19:46:58,013-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-8-2021-04-03 19:46:58,014-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 67
+[LINE:224]-ERROR-Thread-8-2021-04-03 19:48:16,018-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 589, in update_or_create
+    obj = self.select_for_update().get(**kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 429, in get
+    raise self.model.DoesNotExist(
+recomendations.models.MusicUserToken.DoesNotExist: MusicUserToken matching query does not exist.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+psycopg2.errors.UniqueViolation: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "recomendations_musicusertoken_user_id_key"
+DETAIL:  Ключ "(user_id)=(52)" уже существует.
+
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 36, in get_or_create_or_update_account
+    m_u_t, _ = MusicUserToken.objects.update_or_create(user=user, music_user_token=music_user_token)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 594, in update_or_create
+    obj, created = self._create_object_from_params(kwargs, params, lock=True)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 610, in _create_object_from_params
+    obj = self.create(**params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 447, in create
+    obj.save(force_insert=True, using=self.db)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 753, in save
+    self.save_base(using=using, force_insert=force_insert,
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 790, in save_base
+    updated = self._save_table(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 895, in _save_table
+    results = self._do_insert(cls._base_manager, using, fields, returning_fields, raw)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\base.py", line 933, in _do_insert
+    return manager._insert(
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\manager.py", line 85, in manager_method
+    return getattr(self.get_queryset(), name)(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\query.py", line 1254, in _insert
+    return query.get_compiler(using=using).execute_sql(returning_fields)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\models\sql\compiler.py", line 1397, in execute_sql
+    cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 98, in execute
+    return super().execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 66, in execute
+    return self._execute_with_wrappers(sql, params, many=False, executor=self._execute)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 75, in _execute_with_wrappers
+    return executor(sql, params, many, context)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\utils.py", line 90, in __exit__
+    raise dj_exc_value.with_traceback(traceback) from exc_value
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\db\backends\utils.py", line 84, in _execute
+    return self.cursor.execute(sql, params)
+django.db.utils.IntegrityError: ОШИБКА:  повторяющееся значение ключа нарушает ограничение уникальности "recomendations_musicusertoken_user_id_key"
+DETAIL:  Ключ "(user_id)=(52)" уже существует.
+
+[LINE:157]-ERROR-Thread-8-2021-04-03 19:48:16,024-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 500 188918
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:02:34,704-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:02:34,704-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 67
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:04:10,744-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:04:10,745-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 67
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:04:31,733-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:04:31,734-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 67
+[LINE:224]-ERROR-Thread-1-2021-04-03 20:45:22,360-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 29, in get_or_create_or_update_account
+    user_info = friends_services.get_info_about_users([result, ])
+  File "D:\Programming\egor\SongTap\friends\services.py", line 35, in get_info_about_users
+    data['email'] = '' if user_obj.email is None else str(user_obj.email)
+AttributeError: 'dict' object has no attribute 'email'
+[LINE:157]-ERROR-Thread-1-2021-04-03 20:45:22,363-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 500 95727
+[LINE:224]-ERROR-Thread-1-2021-04-03 20:45:59,346-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 29, in get_or_create_or_update_account
+    user_info = friends_services.get_info_about_users([result, ])
+  File "D:\Programming\egor\SongTap\friends\services.py", line 35, in get_info_about_users
+    data['email'] = '' if user_obj.email is None else str(user_obj.email)
+AttributeError: 'dict' object has no attribute 'email'
+[LINE:157]-ERROR-Thread-1-2021-04-03 20:45:59,349-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 500 95727
+[LINE:224]-ERROR-Thread-1-2021-04-03 20:46:48,147-log-Internal Server Error: /accounts/get_or_create_or_update_account/
+Traceback (most recent call last):
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\exception.py", line 47, in inner
+    response = get_response(request)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\core\handlers\base.py", line 179, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\decorators\csrf.py", line 54, in wrapped_view
+    return view_func(*args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\django\views\generic\base.py", line 70, in view
+    return self.dispatch(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 509, in dispatch
+    response = self.handle_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 469, in handle_exception
+    self.raise_uncaught_exception(exc)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 480, in raise_uncaught_exception
+    raise exc
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\views.py", line 506, in dispatch
+    response = handler(request, *args, **kwargs)
+  File "C:\Users\victo\AppData\Local\Programs\Python\Python38-32\lib\site-packages\rest_framework\decorators.py", line 50, in handler
+    return func(*args, **kwargs)
+  File "D:\Programming\egor\SongTap\accounts\views.py", line 29, in get_or_create_or_update_account
+    user_info = friends_services.get_info_about_users([result, ])
+  File "D:\Programming\egor\SongTap\friends\services.py", line 35, in get_info_about_users
+    data['email'] = '' if user_obj.email is None else str(user_obj.email)
+AttributeError: 'dict' object has no attribute 'email'
+[LINE:157]-ERROR-Thread-1-2021-04-03 20:46:48,150-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 500 95750
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:48:48,084-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:48:48,085-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 67
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:49:23,761-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:49:23,761-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 67
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:49:35,670-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:49:35,671-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 104
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:49:43,102-log-Bad Request: /accounts/get_or_create_or_update_account/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:49:43,103-basehttp-"POST /accounts/get_or_create_or_update_account/ HTTP/1.1" 400 67
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:52:20,503-log-Bad Request: /accounts/update_login/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:52:20,504-basehttp-"POST /accounts/update_login/ HTTP/1.1" 400 67
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:52:28,166-log-Bad Request: /accounts/update_login/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:52:28,167-basehttp-"POST /accounts/update_login/ HTTP/1.1" 400 67
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:57:45,915-log-Bad Request: /accounts/update_login/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:57:45,916-basehttp-"POST /accounts/update_login/ HTTP/1.1" 400 67
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:59:01,703-log-Bad Request: /accounts/update_login/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:59:01,704-basehttp-"POST /accounts/update_login/ HTTP/1.1" 400 58
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:59:11,318-log-Bad Request: /accounts/update_login/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:59:11,318-basehttp-"POST /accounts/update_login/ HTTP/1.1" 400 74
+[LINE:224]-WARNING-Thread-1-2021-04-03 20:59:25,854-log-Bad Request: /accounts/update_login/
+[LINE:157]-WARNING-Thread-1-2021-04-03 20:59:25,855-basehttp-"POST /accounts/update_login/ HTTP/1.1" 400 53
